@@ -1,0 +1,247 @@
+@charset "UTF-8";
+body{
+    background-image: url(../images/web-bg.jpg);
+    background-size: contain;
+
+}
+.top {
+    width: 100%;
+    text-align: center; 
+    margin-top: 3%;
+    background-image: url(../images/web-bg.jpg);
+    background-size: contain;
+}
+.head-article{
+    background-image: url(../images/web-bg.jpg);
+    background-size: contain;
+
+}
+body{
+    width:100%;
+}
+header .top img{ /*top画像*/
+    width: 80%;
+    border-bottom: 20px double black;
+}
+
+.top-info{
+    padding-bottom: 20px;
+
+}
+.categoryNav{
+    border:3px solid black;
+    width: 80%;
+    background-color: burlywood;
+    margin: 0px auto;
+}
+.categoryNav .categorybox{
+    margin-bottom: 20px;
+}
+.categoryNav h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.categoryNav ul li{
+    list-style-type: square;
+    font-size: 20px;
+    color:#7c5d48;
+    margin: 20px 0 20px 20px;
+}
+
+.categoryNav ul li a{
+    color: #333333;
+}
+.categoryNav ul li a:hover{
+    text-decoration: underline double;
+    }
+
+section{
+    width: 70%;
+    margin:0px auto 0px auto ;
+    background-color:rgb(254, 239, 225);
+    padding-top: 20px;
+}
+
+main{
+    background-image: url(../images/web-bg.jpg);
+    background-size: contain;
+}
+
+/*ボタン⬇️*/
+
+home {
+    background-color: #6ab547;
+    color:black;
+}
+youtube{
+    background-color: red;
+    color:white;
+
+}
+x{
+    background-color: black;
+    color:white;
+}
+article ul li a{
+    background-image:url(../images/orinnpasu-topへ.jpg) ;
+    background-size: contain;
+    display:flex;
+    padding:8px;
+
+    font-size: 25px;
+}
+article ul{
+    /* width: 70%; */
+    margin: 5px auto;
+    display:flex;
+    justify-content: center; 
+
+}
+article ul li{/*ボタンの間*/
+    margin:0 20px;
+}
+article ul li a:hover{
+text-decoration: underline double;
+}
+article nav{
+    width:80%;
+    background-color: black;
+    background-size: contain;
+    background-size: 100%;
+    margin: 0px auto 10px auto; 
+    /* padding:10px 0px; */
+}
+article{
+    background-image: url(../images/web-bg.jpg) ;
+    background-size: contain;
+}
+
+
+
+
+.top-info .title a{
+    display: block;
+    width: 100%;
+    background-image:url(../images/orinnpasu-topへ.jpg);
+    background-size: contain;
+}
+.top-info .title a h2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 32px;
+    font-weight: 600;
+}
+time{
+    background-color: #91c777;
+    border-radius: 0px 22px 22px 22px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 13px 25px 12px 28px;
+    display: inline-block;
+    margin:10px 0px 20px 0px;
+}
+
+
+
+main section a h3{
+    border-bottom: 5px solid #6ab547;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight:500px;
+    background-image: url(../images/h2_icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding: 20px 0px 0px 10px;
+}
+
+main section h4{/*ヒューズ弱体化*/
+    font-size: 25px; 
+    font-weight: 700;
+    border-bottom: 5px dashed #a7a7a7;
+    padding: 10px 10px 10px 10px;
+}
+.legend-img{/*レジェンド　画像*/
+    width: 100%;
+    text-align: center; 
+}
+main section .legend-img img{/*レジェンド　画像*/
+    width:70%;
+    margin: 10px auto;
+}
+
+main section ul {  /*調整内容　文　囲い*/
+    border: 5px solid rgb(174, 230, 191);
+    padding: 30px 0px 30px 0px ;
+    margin: 10px 70px 20px;
+}
+section ul  a h5{
+    margin-top: 30px;
+}
+section ul h5{
+    font-size: 20px;
+    border-bottom: 3px dotted gray;
+}
+section ul li{ /*囲ってある文*/
+    font-size: 18px;
+    padding: 5px auto;
+    text-align: left;
+    margin:20px 0px;
+}
+
+.weapon-img{/*武器　画像*/
+    width: 100%;
+    text-align: center; 
+}
+main section .weapon-img img{/*武器　画像*/
+    width:70%;
+    margin: 10px auto;
+}
+
+.hopup-img{/*武器　画像*/
+    width: 100%;
+    text-align: center; 
+}
+main section .hopup-img img{/*武器　画像*/
+    width:20%;
+    margin: 10px auto;
+}
+
+.icon1 {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url(../images/bu-suteddo.png) no-repeat left center;
+    background-size: contain;
+}
+.icon2 {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url(../images/gansi-rudo.webp) no-repeat left center;
+    background-size: contain;
+}
+.icon3 {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url(../images/hamapo.png) no-repeat left center;
+    background-size: contain;
+}
+
+
+bottom{ 
+    display: flex;
+    margin: 20px auto;
+    border:6px double black;
+    width:30%;
+    background-image:url(../images/orinnpasu-topへ.jpg);
+    background-size: contain;
+}
+bottom a {
+    margin: 0px auto;
+    font-size: 30px;
+}
