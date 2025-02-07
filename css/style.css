@@ -2,6 +2,7 @@
 body{
     background-image: url(../images/web-bg.jpg);
     background-size: contain;
+    font-family: 'Verdana','Hiragino Sans','Meiryo',sans-serif;
 
 }
 .top {
