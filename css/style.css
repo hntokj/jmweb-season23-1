@@ -39,14 +39,15 @@ header .top img{ /*top画像*/
     margin-bottom: 20px;
 }
 .categoryNav h2{
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 45px;
+    font-weight: 900;
     text-align: center;
 }
 
 .categoryNav ul li{
     list-style-type: square;
     font-size: 30px;
+    font-weight: 600;
     color:black;
     margin: 20px 0 20px 20px;
 }
@@ -97,6 +98,7 @@ article ul li a{
     padding:8px;
     color:#ffffff;
     font-size: 25px;
+    font-weight: 600;
 }
 article ul{
     /* width: 70%; */
@@ -153,11 +155,11 @@ time{
 
 
 
-main section a h3{
+main section a h3{/*レジェンド調整、武器調整*/
     border-bottom: 5px solid #6ab547;
     margin-bottom: 20px;
     font-size: 30px;
-    font-weight:500px;
+    font-weight:600;
     background-image: url(../images/h2_icon.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -188,12 +190,13 @@ main section ul {  /*調整内容　文　囲い*/
 section ul  a h5{
     margin-top: 30px;
 }
-section ul h5{
+section ul h5{/*パッシブ：*/
     font-size: 20px;
+    font-weight: 600;
     border-bottom: 3px dotted gray;
 }
 section ul li{ /*囲ってある文*/
-    font-size: 18px;
+    font-size: 20px;
     padding: 5px auto;
     text-align: left;
     margin:20px 0px;
@@ -254,4 +257,11 @@ bottom a {
 }
 bottom a:hover{
     color: rgb(0, 157, 255);
+}
+
+red{
+    color:rgb(255, 72, 0);
+}
+red-border{
+    border:3px solid rgb(255, 72, 0);
 }
