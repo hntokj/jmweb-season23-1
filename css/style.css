@@ -39,22 +39,24 @@ header .top img{ /*top画像*/
     margin-bottom: 20px;
 }
 .categoryNav h2{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     text-align: center;
 }
 
 .categoryNav ul li{
     list-style-type: square;
-    font-size: 20px;
-    color:#7c5d48;
+    font-size: 30px;
+    color:black;
     margin: 20px 0 20px 20px;
 }
 
 .categoryNav ul li a{
-    color: #333333;
+    color: black;
+    border-bottom:3px solid rgb(0, 157, 255);
 }
 .categoryNav ul li a:hover{
+    color: rgb(0, 157, 255);
     text-decoration: underline double;
     }
 
@@ -74,23 +76,26 @@ main{
 
 home {
     background-color: #6ab547;
-    color:black;
+   
 }
+
 youtube{
     background-color: red;
-    color:white;
+    
 
 }
+
 x{
     background-color: black;
-    color:white;
+    
 }
+
 article ul li a{
     background-image:url(../images/orinnpasu-topへ.jpg) ;
     background-size: contain;
     display:flex;
     padding:8px;
-
+    color:#ffffff;
     font-size: 25px;
 }
 article ul{
@@ -104,6 +109,7 @@ article ul li{/*ボタンの間*/
     margin:0 20px;
 }
 article ul li a:hover{
+    color:rgb(0, 157, 255);
 text-decoration: underline double;
 }
 article nav{
@@ -245,4 +251,7 @@ bottom{
 bottom a {
     margin: 0px auto;
     font-size: 30px;
+}
+bottom a:hover{
+    color: rgb(0, 157, 255);
 }
